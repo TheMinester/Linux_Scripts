@@ -1,3 +1,4 @@
 #!/bin/bash
-#Script qui affiche la date au format hh:mm:ss jj/mm/aa
+#Script qui affiche dasn le terminal la date au format hh:mm:ss jj/mm/aa
 
+date +"%T %d/%m/%y"
