@@ -3,4 +3,4 @@
 
 sorted=$(printf "$@" | sort -f) # trier la liste des arguments "$@" et la stocker dans $sorted
 
-echo $sorted # ecrit dans le terminla la valeur de $sorted
+echo $sorted # ecrit dans le terminal la valeur de $sorted
