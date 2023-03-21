@@ -1,11 +1,12 @@
 #!/bin/bash
 # Script  qui crée une copie de chaque fichier présent dans le répertoire courant suivi du
-# préfixe .bak. Les fichiers déjà sauvegardés seront ignorés. Le script indique le nombre
+# suffixe .bak. Les fichiers déjà sauvegardés seront ignorés. Le script indique le nombre
 # de fichiers sauvegardés à la fin.
 
+# Auteur: Duteil Julien
+# Créé le: 20/03/2023
 
 nbfilebak=0 # initialisation de la valeur du nombre de fichiers sauvegardés
-dir=`pwd` # stockage du dossier d'exécution du script dans la variable $dir
 
 for file in ./* # Pour chaque objet dans le dossier d'exécution
 do 
