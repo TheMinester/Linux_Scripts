@@ -36,4 +36,16 @@ if [[ -f /var/tmp/$tarname ]] # teste si le fichier $tarname existe bien dans /v
         echo "Sauvegarde terminée avec succès"
     else
         echo "Une erreur est survenue durant la sauvegarde"
+        exit # arrête le script
 fi
+
+echo "Transfert de la sauvegarde sur le serveur de sauvegarde ..."
+
+scp -i ~/.ssh/archive_rsa.pub /var/tmp/$tarname simplon@10.10.40.34:/home/Simplon/$tarname # transfert de l'archive via scp et une clé ssh vers un serveur distant
+
+if [[ $? == 0 ]] # teste si la valeur de $? (code de résultat d'exécution de la dernière commande) est égal à 0 (succès)
+    then
+        echo "Transfert terminé avec succès"
+    else
+        echo "Une erreur est survenue durant le transfert"
+        exit # arrête le script
