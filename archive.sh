@@ -17,7 +17,7 @@ fi
 
 # Vérifier que le dossier de l'utilisateur demandé en paramètre existe
 
-if [ -d "/home/$1" ] # vérifie qu'un "dossier" portant le nom de l'argument 1 existe
+if [ -d "/home/$1" ] # vérifie qu'un dossier portant le nom de l'argument 1 existe
 then
     echo "Dossier personnel existant."
 else
