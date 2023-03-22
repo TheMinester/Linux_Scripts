@@ -172,8 +172,8 @@ Script writing in the terminal the alphabetically sorted list of users having ru
 
 Features:
 
-Uses ps aux. (displays the running processes with associated users)
-Uses awk. (used to parse values)
-Uses sed. (used to parse values)
-Uses sort. (used to sort alphabetically values)
-Uses uniq. (gets rid of multiple time the same value and only diplays it once)
+Uses ps aux. (displays the running processes with associated users)<br>
+Uses awk. (used to parse values)<br>
+Uses sed. (used to parse values)<br>
+Uses sort. (used to sort alphabetically values)<br>
+Uses uniq. (gets rid of multiple time the same value and only diplays it once)<br>
