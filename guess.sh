@@ -2,6 +2,9 @@
 # Script où Il faut deviner le nombre mystère
 # Celui-ci est compris entre 1 et 1000. Le joueur a dix essais.
 
+# Auteur: Duteil Julien
+# Créé le: 20/03/2023
+
 number=$(( $RANDOM % 1000 + 1 )) # générer un nombre aléatoire entre 1 et 1000
 
 for (( i=1; i<=10; i++ )) # la boucle s'exécute 10x
