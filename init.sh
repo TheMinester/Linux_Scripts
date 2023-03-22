@@ -3,9 +3,12 @@
 # Le script doit ensuite créer deux fichiers README.md et change.log dans le dossier
 # et afficher le contenu du dossier
 
+# Auteur: Duteil Julien
+# Créé le: 20/03/2023
+
 mkdir $1 # créer le dossier avec le nom de l'argument 1 dans le dossier d'exécution du script
 echo "Dossier créé =" $1 # écrire dans le terminal le nom du dossier créé
 
-touch ./$1/README.md ./$1/change.log # créer les fichier README.md et change.log dans le dossier
+touch ./$1/README.md ./$1/change.log # créer les fichier README.md et change.log dans le dossier précédement créé
 
 ls -la $1/ # affiche le contenu du dossier
