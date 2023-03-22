@@ -2,6 +2,9 @@
 # Script qui affiche son nom, puis le chemin par lequel il a été appelé,
 # puis tout ses arguments un à un.
 
+# Auteur: Duteil Julien
+# Créé le: 20/03/2023
+
 # $(basename "$0") permet d'obtenir le nom du script exécuté
 # $( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd ) permet
 #d'obtenir le chemin du script
@@ -26,7 +29,7 @@ dir=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )$
 echo "nom:" $name
 echo "chemin:" $dir
 
-for (( c=1; c<=$#; c++ ))
+for (( i=1; i<=$#; i++ ))
 do
-  echo "argument" $c ":" ${!c}
+  echo "argument" $i ":" ${!i}
 done
