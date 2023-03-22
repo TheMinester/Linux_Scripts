@@ -2,7 +2,7 @@
 # Script qui affiche ses arguments dans l'ordre alphabétique suivi d'un retour à la ligne
 
 # Auteur: Duteil Julien
-# Créé le: 20/03/2023
+# Créé le: 22/03/2023
 
 for arg in "$@" # pour chaque argument
 do
