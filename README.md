@@ -2,7 +2,7 @@
 
 ## Personnal repository for various Linux scripts.
 
-### archive.sh
+### **archive.sh**
 
 Description:
 
@@ -15,7 +15,7 @@ Backup file is named using the argument and the date in ISO 8601 format.
 Tests if the backup is well created.
 Does a copy to a remote copy server using scp command and rsa keys.
 
-### backup.sh
+### **backup.sh**
 
 Description:
 
@@ -28,7 +28,7 @@ Files alredy saved are ignored.
 Writes in the terminal the number of file who got a backup made.
 Uses IF conditions with OR conditions.
 
-### count.sh
+### **count.sh**
 
 Description:
 
@@ -38,7 +38,7 @@ Features:
 
 Classic FOR loop stopping once i reaches the value of the argument.
 
-### count_param.sh
+### **count_param.sh**
 
 Description:
 
@@ -48,7 +48,7 @@ Features:
 
 Gets the value of $# which is the number of arguments inputted with a script
 
-### display_date.sh
+### **display_date.sh**
 
 Description:
 
@@ -58,7 +58,7 @@ Features:
 
 Gets the date and the hour using the format "hh:mm:ss dd/mm/yy"
 
-### guess.sh
+### **guess.sh**
 
 Description:
 
@@ -71,7 +71,7 @@ Generates a number between 1 and 1000.
 Classic FOR loop, looping 10 times.
 Classic IF conditions using comparators.
 
-### init.sh
+### **init.sh**
 
 Description:
 
@@ -82,7 +82,7 @@ Features.
 Makes a directory.
 Creates files.
 
-### last_arg.sh
+### **last_arg.sh**
 
 Description:
 
@@ -92,7 +92,7 @@ Features:
 
 Uses variable substitution.
 
-### max.sh
+### **max.sh**
 
 Description:
 
@@ -104,7 +104,7 @@ Checks the number of arguments.
 Checks if arguments are integers.
 Classic IF condition using a comparator.
 
-### params.sh
+### **params.sh**
 
 Description:
 
@@ -116,7 +116,7 @@ Gets the path of the directory it was executed in.
 Classic FOR loop, looping the number of times there are arguments.
 Uses variable substitution.
 
-### sort.sh
+### **sort.sh**
 
 Description:
 
@@ -127,7 +127,7 @@ Features:
 Tests if all arguments don't contain anything other than letters.
 Uses the "sort" function that sorts alphabetically.
 
-### status.sh
+### **status.sh**
 
 Description:
 
@@ -138,7 +138,7 @@ Features:
 Uses "pgrep" to get the status of a service.
 Uses returned results of commands execution to display a custom message.
 
-### toupper.sh
+### **toupper.sh**
 
 Description:
 
@@ -152,7 +152,7 @@ Uses variable substitution.
 Uses "printf" to pass the value of a variable to another command using a pipe "|"
 Uses the command "toupper" to put a string in full caps.
 
-### type.sh
+### **type.sh**
 
 Description:
 
@@ -164,7 +164,7 @@ Different uses of regex in IF conditions.
 Uses IF conditions with AND conditions.
 Uses ELIF conditions.
 
-### users.sh
+### **users.sh**
 
 Description:
 
