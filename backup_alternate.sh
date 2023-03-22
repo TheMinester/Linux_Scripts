@@ -1,6 +1,8 @@
 #!/bin/bash
-
 #Script qui permet de sauvegarder les fichiers existants dans le dossier
+
+# Auteur: Florian Fuentes
+# Créé le: 20/03/2023
 
 #Stocker la liste des elements presents dans le dossier
 list=($(ls -F)) #permet de distinguer les dossiers des fichiers avec /
