@@ -2,7 +2,10 @@
 # Script  qui passe tous ses arguments en majuscule. Il n'affiche rien si
 # il n'y a pas d'argument
 
-# La variable sert à stocker la ligne qui sera écrit dans le terminal à la fin de la boucle for
+# Auteur: Duteil Julien
+# Créé le: 20/03/2023
+
+# La variable $upper sert à stocker la ligne qui sera écrit dans le terminal à la fin de la boucle for
 
 for (( i=1; i<=$#; i++ )) # la boucle s'exécute le nombre de fois qu'il y a d'arguments
 do
