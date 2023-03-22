@@ -2,6 +2,9 @@
 # Script qui dit si la chaîne passée en argument contient des voyelles, des consonnes ou des
 # chiffres
 
+# Auteur: Duteil Julien
+# Créé le: 22/03/2023
+
 i=0 # variable booléenne pour les chiffres
 v=0 # variable booléenne pour les voyelles
 c=0 # variable booléenne pour les consonnes
