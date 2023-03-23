@@ -1,6 +1,6 @@
 # Linux_Scripts
 
-## Personnal repository for various Linux scripts.
+## Personnal repository for various Bash scripts.
 
 ### **archive.sh**
 
